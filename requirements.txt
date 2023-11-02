@@ -1,0 +1,16 @@
+numpy
+scipy
+tqdm
+h5py
+pandas
+matplotlib
+plotly
+PyYAML
+scikit_learn
+openpyxl
+jupyter
+torch
+keras
+tensorflow
+torchvision
+path

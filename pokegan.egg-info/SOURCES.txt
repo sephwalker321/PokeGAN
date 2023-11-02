@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pokegan/__init__.py
+pokegan/dataloader.py
+pokegan/functions.py
+pokegan/networks.py
+pokegan/plots.py
+pokegan/plots_format.py
+pokegan.egg-info/PKG-INFO
+pokegan.egg-info/SOURCES.txt
+pokegan.egg-info/dependency_links.txt
+pokegan.egg-info/requires.txt
+pokegan.egg-info/top_level.txt

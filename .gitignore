@@ -1,0 +1,6 @@
+pokegan-egg-info/
+__pycache__/
+runs/*
+*/.ipynb_checkpoints/*
+*.pyc
+dev.py

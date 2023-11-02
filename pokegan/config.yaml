@@ -1,0 +1,26 @@
+version: 1
+
+#Plotting density
+dpi: 250
+imformat: "png"
+batch_plot_tiling: 8
+
+#SpritesLocation
+images_default: "data/sprites/home"
+
+cuda: false
+seed: 1
+
+epoch_save_rate: 20
+
+real_label: 0
+fake_label: 1
+noisy_label: true
+noisy_label_std: 0.1
+
+x_dim: 32
+image_channel: 3
+
+batch_size: 64
+lr_D: 0.0001
+lr_G: 0.0002
