@@ -1,4 +1,4 @@
-pokegan-egg-info/
+pokegan.egg-info/*
 __pycache__/
 runs/*
 */.ipynb_checkpoints/*
