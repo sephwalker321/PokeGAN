@@ -91,7 +91,7 @@ In the notebook example we introduce a set of simple on-the-fly image augmentati
 
 2. Random rotations
 
-3. Random horizontla flipping
+3. Random horizontal flipping
 
 4. Resize to 3x32x32 Images
 
@@ -103,26 +103,26 @@ This yeilds an example batch,
 <img src="assets/batch.png">
 </p>
 
-Now we create the GAN. We create the generator and discrimator and wrap into a custom GAN class and begin the training. We feed the generator with a noisy vector input which we can represent graphically, 
+Now we create the GAN. We create the generator and discrimator and wrap them into a custom GAN class and begin the training. We feed the generator with a noisy vector input which we can represent graphically, 
 
 <p align="center">
 <img src="assets/Noise.png" width="60%">
 </p>
 
-The generator transforms this random noise into a new pokemon sprite attempting to deceive the discriminator. Over time the generator compares the training images and the artifical images to trys to classify them. Over time they both improve.
+The generator transforms this random noise into a new pokemon sprite which attempts to deceive the discriminator. Over time the generator compares the training images and the artifical images to trys to classify them. Over time they both improve.
 Here are some example generated images over time for 10, 50, 100 and 500 epochs.
 
 <p align="center">
 <img src="assets/00010.png" width="23%"> <img src="assets/00050.png" width="23%"> <img src="assets/00100.png" width="23%"> <img src="assets/00500.png" width="23%">
 </p>
 
-Over time we can plot the training losses, 
+Over the training time we can plot the losses of the two networks, 
 
 <p align="center">
 <img src="assets/training_loss.png" width="60%">
 </p>
 
-Lastly, lets see how go the discriminator is in the end by comparing a heatmap of the discriminator scores against some example fake and real images
+Lastly, lets see how the discriminator performs by comparing a heatmap of the discriminator scores against some example fake and real images,
 
 <p align="center">
 <img src="assets/training_images.png">
